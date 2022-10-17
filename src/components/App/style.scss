@@ -1,0 +1,17 @@
+@import "./vars.scss";
+.app {
+    margin-top: 100px;
+    display: flex;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 2px #fff;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+    @media screen and (max-width:($md2 + px)) {
+      flex-direction: column;
+      margin: 100px 20px 20px 20px;
+    }
+    @media screen and (max-width: (340 + px)) {
+      padding: 15px 10px;
+    }
+}

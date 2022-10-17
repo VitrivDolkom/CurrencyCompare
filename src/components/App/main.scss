@@ -1,0 +1,65 @@
+//  todo default someting
+@import "./vars";
+@import "./zeroing_style";
+
+html {
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: $ff;
+  font-size: $fz;
+  font-weight: $fw;
+  overflow-x: hidden;
+  font-family: "Raleway";
+  background-color: #F2EDAC;
+  display: flex;
+  // align-items: center;
+  justify-content: center;
+  &.lock {
+    overflow: hidden;
+  }
+}
+
+.wrapper {
+  overflow: hidden;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1 1 auto;
+}
+
+.box {
+  max-width: $box_width + px;
+  margin: 0px auto;
+
+  padding: 0 15px;
+  padding-top: 40px;
+}
+
+
+.box-md {
+  @media screen and (max-width: ($md1 + px)) {
+    width: $md2 + px;
+  }
+
+  @media screen and (max-width: ($md2 + px)) {
+    width: $md3 + px;
+  }
+
+  @media screen and (max-width: ($md3 + px)) {
+    width: $md4 + px;
+  }
+
+  @media screen and (max-width: ($md4 + px)) {
+    width: 320px;
+  }
+}
+
+// ------------------------------ //
+
+
