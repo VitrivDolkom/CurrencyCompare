@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/CurrencyCompare/static/css/main.478629a2.css",
+    "main.js": "/CurrencyCompare/static/js/main.51e9182b.js",
+    "index.html": "/CurrencyCompare/index.html",
+    "main.478629a2.css.map": "/CurrencyCompare/static/css/main.478629a2.css.map",
+    "main.51e9182b.js.map": "/CurrencyCompare/static/js/main.51e9182b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.478629a2.css",
+    "static/js/main.51e9182b.js"
+  ]
+}
